@@ -1,0 +1,101 @@
+body{
+  background-image: url("wall4_@2X.png");
+  background-repeat: repeat;
+  height: 100%;
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+}
+
+.navbar-brand{
+	background-color: #06546F
+}
+
+.navbar-default .navbar-brand{
+	color: #09B47A;
+}
+
+.panel-default {
+	border: 1px solid #06546F;
+}
+
+.col-md-6{
+	width: 650px;
+}
+
+.col-sm-6{
+	width: 270px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 105%;
+	background-color: #09B47A;
+	padding-bottom: 50px;
+	border-top: 5px solid #06546F;
+}
+
+#bio-image{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.image{
+  float: left;
+  position: relative;
+  padding: 30px 25px 20px 19px;
+}
+
+#text1a, #text2a, #text3a, #text4a{
+  height: 50px;
+  width: 250px;
+  position: absolute;
+  bottom: 15%;
+  background-color: #09B47A;
+  /*border-radius: 10px;*/
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+}
+
+form {
+        margin: 0 auto;
+        width: 400px;
+        padding-top: 25px;
+        padding-right: 100px;
+      }
+      form div + div {
+        margin-top: 1em;
+      }
+      label {
+        display: inline-block;
+        width: 90px;
+        text-align: left;
+      }
+      input, textarea {
+        font: 1em sans-serif;
+        width: 130%;
+        box-sizing: border-box;
+        border: 2px solid #999;
+      }
+      input:focus, textarea:focus {
+        border-color: #000;
+      }
+      textarea {
+        vertical-align: top;
+        height: 200px;
+      }
+      .button {
+      }
+
+      button {
+        background-color: #09B47A;
+        height: 40px;
+        width: 75px;
+      }
